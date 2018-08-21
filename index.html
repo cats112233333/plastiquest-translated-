@@ -10,31 +10,31 @@
   <body>
     <h1>Determination of types of plastics</h1>
     <div id="densité">
-      <h3>Le plastique flotte-il dans l'eau douce ?</h3>
-      <button onClick="Oui('densité')">Oui</button>
-      <button onClick="Non('densité')">Non</button>
+      <h3>Does plastic float in fresh water</h3>
+      <button onClick="Yes('densité')">Yes</button>
+      <button onClick="No('densité')">No</button>
     </div>
-    <div id="élasticité" class="question-hide">
+    <div id="elastic" class="question-hide">
       <h3>Le plastique s'étire-il ?</h3>
-      <button onClick="Oui('élasticité')">Oui</button>
-      <button onClick="Non('élasticité')">Non</button>
+      <button onClick="Yes('élasticité')">Yes</button>
+      <button onClick="No('élasticité')">No</button>
     </div>
-    <div id="densité-salée" class="question-hide">
+    <div id="denty-salt" class="question-hide">
       <h3>Le plastique flotte-il dans l'eau salée ?</h3>
-      <button onClick="Oui('densité-salée')">Oui</button>
-      <button onClick="Non('densité-salée')">Non</button>
+      <button onClick="Yes('densité-salée')">Yes</button>
+      <button onClick="No('densité-salée')">No</button>
     </div>
-    <div id="thermop-salée" class="question-hide">
+    <div id="thermop-salt" class="question-hide">
       <h3>Le plastique se colle-il sur lui et flotte-il dans l'eau bouillante salée ?</h3>
-      <button onClick="Oui('thermop-salée')">Oui</button>
-      <button onClick="Non('thermop-salée')">Non</button>
+      <button onClick="Yes('thermop-salée')">Yes</button>
+      <button onClick="No('thermop-salée')">No</button>
     </div>
     <div id="thermop" class="question-hide">
       <h3>Le plastique se rétracte-il dans l'eau bouillante ?</h3>
-      <button onClick="Oui('thermop')">Oui</button>
-      <button onClick="Non('thermop')">Non</button>
+      <button onClick="Yes('thermop')">Yes</button>
+      <button onClick="No('thermop')">No</button>
     </div>
-    <h3 id="reponse">Votre plastique est du <span id="type-plastique"><em>Répondez aux questions</em></span></h3>
+    <h3 id="reponse">Your plastic is <span id = "type-plastic"> <em> Answer the questions/em></span></h3>
     <br>
     <button id="restart" title="Recommencer" onClick="location.reload()"><img src="repeat.svg" alt="Recommencer"></button>
   </body>
